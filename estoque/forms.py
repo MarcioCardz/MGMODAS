@@ -1,6 +1,6 @@
 from django import forms
 
-from projeto.produto.models import Produto
+from produto.models import Produto
 
 from .models import Estoque, EstoqueItens
 

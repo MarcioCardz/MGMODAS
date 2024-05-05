@@ -6,7 +6,7 @@ from django.shortcuts import render, resolve_url
 from django.urls import reverse
 from django.views.generic import DetailView, ListView
 
-from projeto.produto.models import Produto
+from produto.models import Produto
 
 from .forms import EstoqueForm, EstoqueItensEntradaForm, EstoqueItensSaidaForm
 from .models import (

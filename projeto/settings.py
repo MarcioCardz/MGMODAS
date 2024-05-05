@@ -44,9 +44,9 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'bootstrapform',
     # Minhas apps
-    'projeto.core',
-    'projeto.produto',
-    'projeto.estoque',
+    'core.apps.CoreConfig',
+    'produto.apps.ProdutoConfig',
+    'estoque.apps.EstoqueConfig',
 ]
 
 MIDDLEWARE = [

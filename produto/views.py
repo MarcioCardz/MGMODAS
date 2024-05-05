@@ -10,8 +10,8 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.views.generic import CreateView, ListView, UpdateView
 
-from projeto.produto.actions.export_xlsx import export_xlsx
-from projeto.produto.actions.import_xlsx import \
+from produto.actions.export_xlsx import export_xlsx
+from produto.actions.import_xlsx import \
     import_xlsx as action_import_xlsx
 
 from .forms import ProdutoForm
