@@ -9,7 +9,7 @@ chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
 
 CONFIG_STRING = """
 DEBUG=True
-SECRET_KEY=%s
+SECRET_KEY=%scat
 ALLOWED_HOSTS=[*], .localhost
 #DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 #DEFAULT_FROM_EMAIL=
