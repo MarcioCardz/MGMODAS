@@ -26,7 +26,7 @@ SECRET_KEY = '!sy+li#6memdg&&iuh3f#8bjt6@vk2bkuf6kyk!5xoe055q^$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mgmodas.onrender.com']
 
 
 # Application definition
